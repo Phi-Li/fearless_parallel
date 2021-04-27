@@ -1,0 +1,11 @@
+[package]
+name = "fearless_parallel"
+version = "0.0.1"
+authors = ["Phil Li"]
+edition = "2018"
+
+[dependencies]
+
+[[bin]]
+name = "demo"
+path = "src/main.rs"
