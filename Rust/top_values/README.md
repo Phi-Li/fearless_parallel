@@ -9,11 +9,11 @@ Repo name is from chapter [Fearless Concurrency](https://doc.rust-lang.org/book/
 ## Usage
 
 ```
-$ cargo run
+$ cargo run --package fearless_parallel -- Rust/top_values/input_0.txt Rust/top_values/input_1.txt Rust/top_values/input_2.txt Rust/top_values/input_3.txt
 ```
 
 ## TODO
 - [ ] Replace unsafe `.unwrap()` with error handling
-- [ ] CLI (interface)
+- [X] CLI (interface)
 - [ ] Unit test for works in `works.rs`
 - [ ] Abstraction for divide and merge process
