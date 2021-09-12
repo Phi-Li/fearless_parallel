@@ -1,4 +1,5 @@
 [workspace]
 members = [
+    "Rust/spinlock",
     "Rust/top_values",
 ]
